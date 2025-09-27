@@ -36,7 +36,7 @@ public class Terreno {
         return ocupado;
     }
     
-    // Método getPlanta() adicionado
+   
     public Planta getPlanta() {
         return planta;
     }

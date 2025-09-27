@@ -13,7 +13,7 @@ public class Celeiro {
     }
 
     public void armazenar(Produtos produto) {
-        if (getOcupacao() < 1) { // A ocupação é um valor entre 0 e 1, então 1 é 100%
+        if (getOcupacao() < 1) { 
             estoque.put(produto, estoque.getOrDefault(produto, 0) + 1);
         }
     }

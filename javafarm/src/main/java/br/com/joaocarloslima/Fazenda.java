@@ -12,7 +12,7 @@ public class Fazenda {
             }
         }
         celeiro = new Celeiro(100);
-        // Inicializa o celeiro com 30 de cada produto
+        
         for (int i = 0; i < 30; i++) {
             celeiro.armazenar(Produtos.batata);
             celeiro.armazenar(Produtos.cenoura);
@@ -40,7 +40,7 @@ public class Fazenda {
         return celeiro;
     }
     
-    // Método getTerreno() adicionado
+  
     public Terreno getTerreno(int x, int y) {
         if (x >= 0 && x < 13 && y >= 0 && y < 13) {
             return terrenos[x][y];
